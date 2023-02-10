@@ -1,0 +1,23 @@
+﻿{
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "secret",
+        "database": "user_demo"
+    },
+    "secret": "pxw*951demo",
+    "emailFrom": "demo@pixelweb.com.co",
+    "smtpOptions": {
+        "host": "mail.pixelweb.com.co",
+        "port": 25,
+        "secure": false,
+        "auth": {
+            "user": "demo@pixelweb.com.co",
+            "pass": "16287318ed1"
+        },
+        "tls": {
+            "rejectUnauthorized": false
+        }
+    }
+}
